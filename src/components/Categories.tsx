@@ -18,7 +18,9 @@ const CATEGORY_IMAGES: CategoryTypes = {
 };
 
 const ImageCardStyle =
-  "flex flex-col justify-center  object-cover lg:w-[400px] text-start lg:text-[24px] font-serif font-medium";
+  "flex flex-col  md:text-start lg:text-[24px] font-serif font-medium";
+
+const ImageStyle = "object-fill rounded-sm cursor-pointer";
 
 const PlantsCategories = () => {
   return (
@@ -26,21 +28,37 @@ const PlantsCategories = () => {
       <span className="lg:text-[36px] font-serif text-center text-gray-900 lg:my-6 ">
         Categories
       </span>
-      <div className="flex flex-row lg:gap-3">
+      <div className="grid lg:grid-cols-4 gap-5 grid-cols-2">
         <div className={ImageCardStyle}>
-          <img src={CATEGORY_IMAGES.JUNGLE} alt="jungle plants" />
+          <img
+            src={CATEGORY_IMAGES.JUNGLE}
+            className={ImageStyle}
+            alt="jungle plants"
+          />
           <span className="">Jungle Plants</span>
         </div>
         <div className={ImageCardStyle}>
-          <img src={CATEGORY_IMAGES.INDOOR} alt="Indoor Plants" />
+          <img
+            src={CATEGORY_IMAGES.INDOOR}
+            className={ImageStyle}
+            alt="Indoor Plants"
+          />
           <span> Indoor Plants</span>
         </div>
         <div className={ImageCardStyle}>
-          <img src={CATEGORY_IMAGES.OUTDOOR} alt="Outdoor Plants" />
+          <img
+            src={CATEGORY_IMAGES.OUTDOOR}
+            className={ImageStyle}
+            alt="Outdoor Plants"
+          />
           <span>Outdoor Plants</span>
         </div>
         <div className={ImageCardStyle}>
-          <img src={CATEGORY_IMAGES.ROOM} alt="Room Plants" />
+          <img
+            src={CATEGORY_IMAGES.ROOM}
+            className={ImageStyle}
+            alt="Room Plants"
+          />
           <span>Room Plants</span>
         </div>
       </div>
