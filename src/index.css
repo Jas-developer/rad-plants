@@ -3,4 +3,20 @@
 @tailwind utilities;
 * {
   box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  overflow-y: scroll;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none;
+  background-color: aliceblue; /* Firefox */
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+.blur-bg {
+  backdrop-filter: blur;
 }

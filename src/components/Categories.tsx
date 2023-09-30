@@ -20,15 +20,15 @@ const CATEGORY_IMAGES: CategoryTypes = {
 const ImageCardStyle =
   "flex flex-col  md:text-start lg:text-[24px] font-serif font-medium";
 
-const ImageStyle = "object-fill rounded-sm cursor-pointer";
+const ImageStyle = "object-fill rounded-sm cursor-pointer shadow-xl";
 
 const PlantsCategories = () => {
   return (
     <div className="flex flex-col">
-      <span className="lg:text-[36px] font-serif text-center text-gray-900 lg:my-6 ">
+      <span className="lg:text-[36px] font-serif text-center text-gray-900 lg:my-12 my-6 text-xl ">
         Categories
       </span>
-      <div className="grid lg:grid-cols-4 gap-5 grid-cols-2">
+      <div className="grid lg:grid-cols-4 grid-cols-2 gap-5">
         <div className={ImageCardStyle}>
           <img
             src={CATEGORY_IMAGES.JUNGLE}
