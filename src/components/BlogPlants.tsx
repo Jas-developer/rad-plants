@@ -10,7 +10,7 @@ const BlogPlants = () => {
           alt="plants image"
           className="rouned-sm relative shadow-xl"
         />
-        <span className="flex flex-col lg:left-[28rem] absolute px-10 shadow-md rounded-sm left-[12rem] top-[1rem] bg-slate-50 ">
+        <span className="flex flex-col md:left-[35rem] lg:left-[28rem] absolute px-10 shadow-md rounded-sm left-[10rem] top-[1rem] bg-slate-50 ">
           <p className="text-gray-400 ">Written by:</p>
           <span className="font-semibold text-gray-900">Mellissa Bale</span>
         </span>
@@ -25,7 +25,7 @@ const BlogPlants = () => {
           alt="plants image"
           className="rouned-sm relative shadow-xl"
         />
-        <span className="flex flex-col absolute px-10 shadow-md lg:left-[28rem] left-[12rem] top-[1rem] bg-slate-50 rounded-sm">
+        <span className="flex flex-col absolute px-10 md:left-[35rem] shadow-md lg:left-[28rem] left-[10rem] top-[1rem] bg-slate-50 rounded-sm">
           <p className="text-gray-400 ">Written by:</p>
           <span className="font-semibold text-gray-900">Jesse Rowe</span>
         </span>

@@ -2,6 +2,7 @@ import HERO_IMAGE from "../assets/IMAGES/HERO_IMAGE.png";
 import { BlogPlants } from "../components/BlogPlants";
 import { PlantsCategories } from "../components/Categories";
 import { FeaturedPlants } from "../components/Featured";
+import { NewsLetter } from "../components/NewsLetter";
 
 const HomePage = () => {
   return (
@@ -43,7 +44,11 @@ const HomePage = () => {
         <FeaturedPlants />
       </div>
       {/* 4TH SECTION */}
-      <BlogPlants />
+      <div>
+        <BlogPlants />
+      </div>
+      {/* 5th section */}
+      <NewsLetter />
     </section>
   );
 };

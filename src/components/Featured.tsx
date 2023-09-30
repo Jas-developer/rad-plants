@@ -61,7 +61,7 @@ const FeaturedPlants = () => {
             src={PRODUCTS.PRODUCT_C}
             alt="plants image"
           />
-          <button className="absolute block lg:left-[16rem] left-[16.5rem] top-[1.5rem] lg:top-[3rem] shadow-md bg-gray-900 font-serif py-2 px-6 justify-center lg:px-4 text-gray-100 items-center lg:text-lg ">
+          <button className="absolute block md:left-[14rem] lg:left-[16rem] left-[15.5rem] top-[1.5rem] lg:top-[3rem] shadow-md bg-gray-900 font-serif py-2 px-6 justify-center lg:px-4 text-gray-100 items-center lg:text-lg ">
             Sold Out
           </button>
           <p className="text-gray-700 lg:text-xl">Plant-3</p>
